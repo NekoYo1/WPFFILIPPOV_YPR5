@@ -7,14 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="169*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="200*"></ColumnDefinition>
+            <ColumnDefinition Width="139*"></ColumnDefinition>
+            <ColumnDefinition Width="61*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock TextWrapping="Wrap" Margin="5">
-            Данная страница находится в окнном приложении
+        <TextBlock TextWrapping="Wrap" Margin="5,5,5,5" Grid.RowSpan="2">
+            MaimWindow.xaml
         </TextBlock>
-        <Frame Grid.Column="1" Source="Page1.xaml" Margin="3"
-               BorderBrush="LimeGreen" BorderThickness="2"></Frame>
+        <Frame Grid.Column="1" Source="Page1.xaml"
+               BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="2" Height="96" VerticalAlignment="Center"/>
+        <TextBlock TextWrapping="Wrap" Margin="10,10,10,56" Grid.Column="1" Grid.ColumnSpan="2">
+            Page1.xaml
+        </TextBlock>
+        <Frame Grid.Column="1" Source="Page1.xaml" Margin="0,96,0,0"
+            BorderBrush="Black" BorderThickness="2" Grid.RowSpan="2"/>
+        <Frame Grid.Column="2" Source="Page1.xaml" Margin="0,96,0,0"
+            BorderBrush="Black" BorderThickness="2" Grid.RowSpan="2"/>
+        <TextBlock TextWrapping="Wrap" Margin="8,10,10,264" Grid.Column="1" Grid.Row="1"><Run Text="Page2.xaml"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="10,5,3,264" Grid.Column="2" Grid.Row="1"><Run Text="Page3.xaml"/></TextBlock>
     </Grid>
 </Window>
