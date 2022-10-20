@@ -10,6 +10,7 @@
         <Frame Source="Page1.xaml" Margin="228,71,44,101" BorderBrush="RoyalBlue" BorderThickness="2"/>
         <Frame Source="Page2.xaml" Margin="17,71,589,101" BorderBrush="RoyalBlue" BorderThickness="2"/>
         <Frame Source="Page3.xaml" Margin="17,6,44,349" BorderBrush="RoyalBlue" BorderThickness="2"/>
+        <Button Margin="260,358,146,25" Content="Задание 3" Click="Button_Click"></Button>
     </Grid>
 </Window>
 
