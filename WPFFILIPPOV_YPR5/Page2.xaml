@@ -8,7 +8,15 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page2">
 
-    <Grid>
-        
+    <Grid Background="LightBlue">
+        <Canvas HorizontalAlignment="Center">
+            <StackPanel Margin="0 15,0,0" Orientation="Vertical">
+                <Label Foreground="White" FontSize="16" Content="-Case1"/>
+                <Label Foreground="White" FontSize="16" Content="-Case2"/>
+                <Label Foreground="White" FontSize="16" Content="-Case3"/>
+                <Label Foreground="White"  FontSize="16" Content="-Case4"/>
+            </StackPanel>
+        </Canvas>
     </Grid>
 </Page>
+

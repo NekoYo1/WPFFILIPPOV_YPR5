@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:WPFFILIPPOV_YPR5"
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="LightBlue">
+        <Frame Source="Page1.xaml" Margin="228,71,44,101" BorderBrush="RoyalBlue" BorderThickness="2"/>
+        <Frame Source="Page2.xaml" Margin="17,71,589,101" BorderBrush="RoyalBlue" BorderThickness="2"/>
+        <Frame Source="Page3.xaml" Margin="17,6,44,349" BorderBrush="RoyalBlue" BorderThickness="2"/>
     </Grid>
 </Window>
+

@@ -8,7 +8,8 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page3">
 
-    <Grid>
-        
+    <Grid Background="LightBlue">
+        <Label Foreground="White" FontSize="24" Content="Menu: Load Case / Save / New Case"/>
     </Grid>
 </Page>
+
