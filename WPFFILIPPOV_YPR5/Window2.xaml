@@ -16,5 +16,6 @@
         <Button Content="Step 3" FontSize="16" HorizontalAlignment="Left" Margin="229,43,0,0" VerticalAlignment="Top" Width="161" Background="Azure" Height="32"/>
         <Frame Source="Page4.xaml" Margin="289,96,73,144" BorderBrush="RoyalBlue" BorderThickness="2"/>
         <Button Content="Next" FontSize="16" HorizontalAlignment="Left" Margin="600,322,0,0" VerticalAlignment="Top" Width="161" Background="Azure" Height="32"/>
+        <Button Margin="459,385,92,11" Content="Задание 4" Click="Button_Click"></Button>
     </Grid>
 </Window>
