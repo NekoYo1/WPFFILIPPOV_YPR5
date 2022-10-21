@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:WPFFILIPPOV_YPR5"
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="LightBlue">
+        <Rectangle HorizontalAlignment="Left" Height="56" Margin="178,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="2000" Fill="#FF00158C"/>
+        <Rectangle HorizontalAlignment="Left" Height="273" Margin="0,161,0,0" Stroke="Black" VerticalAlignment="Top" Width="178" Fill="#FF00158C"/>
+        <Label Foreground="White" FontSize="24" Content="Home" HorizontalAlignment="Left" Margin="53,171,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White" FontSize="24" Content="Inbox" HorizontalAlignment="Left" Margin="53,207,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White" FontSize="24" Content="Sent Items" HorizontalAlignment="Left" Margin="52,241,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White" FontSize="24" Content="Spam" HorizontalAlignment="Left" Margin="52,272,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White" FontSize="24" Content="Settings" HorizontalAlignment="Left" Margin="52,307,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White" FontSize="24" Content="C# Ui  Academy" HorizontalAlignment="Left" Margin="236,7,0,0" VerticalAlignment="Top" Width="311"/>
+        <Rectangle HorizontalAlignment="Left" Height="161" Margin="1,0,0,0" Stroke="White" VerticalAlignment="Top" Width="177" Fill="White" OpacityMask="White"/>
+        <Rectangle HorizontalAlignment="Left" Height="1099" Margin="177,54,0,0" Stroke="White" VerticalAlignment="Top" Width="1776" Fill="#FFDADADA" OpacityMask="White"/>
+        <Image Margin="17,284,757,123" Source="/icon1.PNG" Stretch="Fill"/>
+        <Image Margin="15,247,755,158" Source="/icon3.PNG" Stretch="Fill"/>
+        <Image Margin="15,214,751,192" Source="/icon4.PNG" Stretch="Fill"/>
+        <Image Margin="17,316,756,91" Source="/icon5.PNG" Stretch="Fill"/>
+        <Image Margin="16,179,755,227" Source="/icon6.PNG" Stretch="Fill"/>
     </Grid>
 </Window>
