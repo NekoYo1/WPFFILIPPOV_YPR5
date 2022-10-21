@@ -10,24 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WPFFILIPPOV_YPR5
 {
     /// <summary>
-    /// Логика взаимодействия для Window3.xaml
+    /// Логика взаимодействия для Page5.xaml
     /// </summary>
-    public partial class Window3 : Window
+    public partial class Page5 : Page
     {
-        public Window3()
+        public Page5()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window4 window4 = new Window4();
-            window4.Show();
         }
     }
 }

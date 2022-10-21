@@ -22,5 +22,6 @@
         <Image Margin="15,214,751,192" Source="/icon4.PNG" Stretch="Fill"/>
         <Image Margin="17,316,756,91" Source="/icon5.PNG" Stretch="Fill"/>
         <Image Margin="16,179,755,227" Source="/icon6.PNG" Stretch="Fill"/>
+        <Button Margin="0,0,623,391" Click="Button_Click" Content="Задание 5"></Button>
     </Grid>
 </Window>

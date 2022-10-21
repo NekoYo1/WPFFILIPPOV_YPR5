@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace WPFFILIPPOV_YPR5
 {
     /// <summary>
-    /// Логика взаимодействия для Window3.xaml
+    /// Логика взаимодействия для Window4.xaml
     /// </summary>
-    public partial class Window3 : Window
+    public partial class Window4 : Window
     {
-        public Window3()
+        public Window4()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window4 window4 = new Window4();
-            window4.Show();
         }
     }
 }
